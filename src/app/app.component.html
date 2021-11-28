@@ -1,0 +1,22 @@
+<!-- Barra Superior Azul | Toolbar -->
+<div id="space"></div>
+<div class="toolbar" role="banner">
+  <span id="menu-hamburguer" onclick="openNav()" title="Menu">&#9776;</span>
+  <div class="spacer"></div>
+  <a aria-label="Home" rel="noopener" href="/home" title="Home">
+    <img src="../assets/favicons/croche.png" id="croche-logo">
+  </a>
+  <a aria-label="projetoangularcroche on Github" target="_blank" rel="noopener"
+    href="https://github.com/eduardoqueiroga2/ProjetoAngularCarro" title="Github">  
+    <img src="../assets/icones/Github.png" id="github-logo">
+  </a>
+  <a aria-label="projetoangularcroche" target="_blank" rel="noopener"
+    href="https://console.firebase.google.com/project/projetoangularcroche/hosting/sites" title="Firebase">
+    <img src="../assets/icones/firebase.png" id="firebase-logo">
+  </a>
+</div>
+<!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+<div class="tela_principal">
+  <app-menu></app-menu>
+  <router-outlet></router-outlet>
+</div>
